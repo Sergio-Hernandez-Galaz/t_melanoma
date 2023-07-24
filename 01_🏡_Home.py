@@ -26,7 +26,7 @@ def upload_sc(adata):
     return sc.read_h5ad(adata)
 ##############################################################################################################
 st.write('## scRNA-vis')
-st.write("Webapp for visualization of Melanoma single cell transcripts. Based on Data from Davidson S, Efremova M, Riedel A, Mahata B, Pramanik J, Huuhtanen J, Kar G, Vento-Tormo R, Hagai T, Chen X, Haniffa MA, Shields JD, Teichmann SA. Single-Cell RNA Sequencing Reveals a Dynamic Stromal Niche That Supports Tumor Growth. Cell Rep. 2020 May 19;31(7):107628. doi: 10.1016/j.celrep.2020.107628. PMID: 32433953; PMCID: PMC7242909. Created by **Sergio Hernández** 🧬")
+st.write("Webapp for visualization of Melanoma single cell transcripts. Based on Data from 'Single-Cell RNA Sequencing Reveals a Dynamic Stromal Niche That Supports Tumor Growth. Cell Rep. 2020 May 19;31(7):107628. doi: 10.1016/j.celrep.2020.107628'. Created by **Sergio Hernández** 🧬")
 st.sidebar.divider()
 colormap= st.sidebar.radio("UMAP Colormap",("magma","Reds","hot","rainbow","turbo","Spectral"),horizontal=True)
 st.sidebar.divider()
